@@ -15,9 +15,38 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBOutlet weak var countOfMines: UILabel!
+  
+    @IBOutlet weak var xSize: UILabel!
+    @IBOutlet weak var ySize: UILabel!
+    var counter: Int = 10
+    var x: Int?
+    var y: Int?
+    var minesValue: Int?
+
+    
+    
+    @IBAction func minusButton(_ sender: Any) {
+        
+        if (counter > 10){
+            counter = Int((countOfMines?.text)!)!
+            counter = counter - 1
+            countOfMines.text = String(describing: counter)
+        } else {
+        return
+        }
+    }
+    
+    @IBAction func plusButton(_ sender: Any) {
+        counter = Int((countOfMines?.text)!)!
+        counter = counter + 1
+        countOfMines.text = String(describing: counter)
+    }
+
+    @IBAction func saveChanges(_ sender: Any) {
+        x = Int(xSize.text!)
+        y = Int(ySize.text!)
+        minesValue = counter
     }
 
 

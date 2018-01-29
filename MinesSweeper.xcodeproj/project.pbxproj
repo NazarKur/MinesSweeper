@@ -14,6 +14,8 @@
 		78AD081A201F8B9500E5EEED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78AD0818201F8B9500E5EEED /* LaunchScreen.storyboard */; };
 		78AD0825201F8B9500E5EEED /* MinesSweeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AD0824201F8B9500E5EEED /* MinesSweeperTests.swift */; };
 		78AD0830201F8B9500E5EEED /* MinesSweeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AD082F201F8B9500E5EEED /* MinesSweeperUITests.swift */; };
+		78AD0840201FA08100E5EEED /* SceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AD083F201FA08100E5EEED /* SceneViewController.swift */; };
+		78AD0842201FA98E00E5EEED /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AD0841201FA98E00E5EEED /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		78AD082B201F8B9500E5EEED /* MinesSweeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinesSweeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78AD082F201F8B9500E5EEED /* MinesSweeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinesSweeperUITests.swift; sourceTree = "<group>"; };
 		78AD0831201F8B9500E5EEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78AD083F201FA08100E5EEED /* SceneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneViewController.swift; sourceTree = "<group>"; };
+		78AD0841201FA98E00E5EEED /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				78AD0813201F8B9500E5EEED /* Main.storyboard */,
 				78AD0816201F8B9500E5EEED /* Assets.xcassets */,
 				78AD0818201F8B9500E5EEED /* LaunchScreen.storyboard */,
+				78AD083F201FA08100E5EEED /* SceneViewController.swift */,
 				78AD081B201F8B9500E5EEED /* Info.plist */,
+				78AD0841201FA98E00E5EEED /* Cell.swift */,
 			);
 			path = MinesSweeper;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78AD0840201FA08100E5EEED /* SceneViewController.swift in Sources */,
+				78AD0842201FA98E00E5EEED /* Cell.swift in Sources */,
 				78AD0812201F8B9500E5EEED /* ViewController.swift in Sources */,
 				78AD0810201F8B9500E5EEED /* AppDelegate.swift in Sources */,
 			);
